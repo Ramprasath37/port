@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Lilita One", sans-serif;
+    box-sizing: border-box;
+
+ }
+
+ nav{
+    width: 100%;
+    position: sticky !important;
+    left: 0%;
+    top: 0%;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0,.5);
+    z-index: 10;
+    
+ }
+ .navbar-brand{font-weight: 500;
+ }
+
+ .nav-link{
+    color: white !important;
+     
+    
+ }
+
+ .nav-item:hover{
+    border-bottom: 3px solid white;
+ }
+
+ section{
+    width: 100%;
+    min-height: 100vh;
+ }
+
+
+ #home{
+    
+     width: 100%; 
+     height: 100vh; 
+     /* background: linear-gradient(rgba(0, 0, 0,.5),rgba(0, 0, 0,.5)),url('D:\OneDrive\Desktop\port\image\Snapchat-2028008142.jpg');  */
+     background-image: url("../image/jonatan-pie-h8nxGssjQXs-unsplash.jpg");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     padding: 12% 20% 20% 10%;
+     color: white; 
+   
+}
+
+
+#home h1{
+    font-size: 60px;
+
+}
+
+#home h2 {
+   font-size: 60px
+   
+}
+ 
+
+ #home p{
+    font-size: 20px;
+     
+ }
+
+ #home span{
+    color: darkorchid;
+    
+ }
+
+ .cv{
+    text-decoration: none;
+    color: rgb(190, 9, 240);
+    font-weight: bold;
+    font-size:20px ;
+ }
+
+ @media screen and (max-width:576px){
+    #home h1{
+        font-size : 30px;
+    }
+
+ }
+
+ @media screen and (max-width:576px){
+    #home p{
+        font-size : 13px;
+    }
+
+ }
+
+
+
+
+ /* about */
+
+
+ #about{
+   display: flex;
+   justify-content: end;
+   align-items: center;
+   background-color: rgb(146, 95, 143);
+
+
+
+
+ }
+
+ .cir img{
+   height: 500px;
+   
+
+   
+ }
+
+
+
+ 
+    
+      
+
+    
+
+
+
+ 
+
+
+
+
+
+
+
+
+
